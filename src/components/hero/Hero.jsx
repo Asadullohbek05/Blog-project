@@ -1,5 +1,6 @@
 import heroImage from "../../assets/hero.svg";
 import overlayImage from "../../assets/hero-overlay.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const divStyle = {
@@ -40,9 +41,9 @@ const Hero = () => {
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
         </p>
-        <button className="mt-12 bg-[#FFD050] text-[#232536] py-3 px-12 font-sen font-semibold text-[18px] leading-[24px]">
+        <Link className="mt-12 bg-[#FFD050] text-[#232536] py-3 px-12 font-sen font-semibold text-[18px] leading-[24px]">
           Read More &gt;
-        </button>
+        </Link>
       </div>
     </div>
   );
