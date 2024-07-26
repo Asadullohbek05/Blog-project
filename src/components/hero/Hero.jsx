@@ -36,12 +36,12 @@ const Hero = () => {
         <h4 className="text-white font-inter font-normal text-[16px] leading-[28px]">
           By <span className="text-[#ffd050]">James West</span> | May 23, 2022
         </h4>
-        <p className="text-[white] max-w-[580px] mt-4 font-inter font-normal text-[16px] leading-[28px]">
+        <p className="text-[white] max-w-[580px] mt-4 font-inter font-normal text-[16px] leading-[28px] mb-12">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
         </p>
-        <Link className="mt-12 bg-[#FFD050] text-[#232536] py-3 px-12 font-sen font-semibold text-[18px] leading-[24px]">
+        <Link className="bg-[#FFD050] text-[#232536] py-3 px-6 sm:px-12 font-sen font-semibold text-[18px] leading-[24px]">
           Read More &gt;
         </Link>
       </div>

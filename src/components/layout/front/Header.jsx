@@ -11,7 +11,7 @@ const Header = () => {
   const { isAuthenticated } = useContext(AuthContext);
   return (
     <header className="bg-[#232536]">
-      <div className="flex justify-between items-center max-w-[1320px] mx-auto py-3 px-5">
+      <div className="flex justify-between items-center max-w-[1320px] mx-auto py-3 px-5 ">
         {isAuthenticated ? (
           <NavLink
             className="text-[#] font-inter font-normal text-outline text-[16px] leading-[28px]"
@@ -122,7 +122,7 @@ const Header = () => {
           ) : (
             <NavLink
               onClick={() => setIsVisible(!visible)}
-              className="bg-[#ffffff] text-[#232536] py-3 px-12 font-sen font-semibold text-[18px] leading-[24px]"
+              className="bg-[#ffffff] text-[#232536] py-3 px-6 sm:px-12 font-sen font-semibold text-[18px] leading-[24px]"
               to="/login"
             >
               Login
