@@ -16,7 +16,7 @@ const PopularBlogs = () => {
         <h1 className="text-[25px] sm:text-[36px] font-bold font-sen text-[#000000] mb-[40px] sm:mb-[44px]">
           Popular blogs
         </h1>
-        <div className="pb-[100px]">
+        <div>
           <Swiper
             slidesPerView={3}
             spaceBetween={32}
@@ -183,6 +183,7 @@ const PopularBlogs = () => {
             </SwiperSlide>
           </Swiper>
         </div>
+        <hr className="my-[30px] sm:my-[66px] h-[1px] bg-[#6D6E76] opacity-[30%]" />
       </div>
     </div>
   );
