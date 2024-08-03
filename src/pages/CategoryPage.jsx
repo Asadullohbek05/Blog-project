@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 
 import blogImg from "../assets/blog-card.png";
+import { useEffect } from "react";
 
 const CategoryPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <div className="py-14 sm:py-20 text-center px-5 bg-[#F4F0F8] ">

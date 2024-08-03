@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import blogImg from "../assets/blog.png";
 import profileImg from "../assets/profile-img.svg";
 
 const BlogPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="pb-[100px]">
+    <div className="pb-[40px] sm:pb-[100px]">
       <div className="max-w-[1320px] h-auto mx-auto px-5">
         <img src={blogImg} className="my-5 sm:my-14" />
         <div className="max-w-[843px] h-auto mx-auto">
